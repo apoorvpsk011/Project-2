@@ -1,13 +1,14 @@
- #include <stdio.h>
-int main() {
-   int a, b;
-   printf("enter a");
-   scanf("%d", &a);
+#include<stdio.h>
+int main () {
 
-   printf("enter b");
-   scanf("%d", &b); 
+int radius;
 
-   int sum = a + b;
-   printf("sum is : %d", sum);
-   return 0;
-   }
+printf("Enter Radius");
+scanf("%f", &radius);
+
+printf("radius is : %f", 3.14*radius*radius);
+return 0;
+
+
+
+}
